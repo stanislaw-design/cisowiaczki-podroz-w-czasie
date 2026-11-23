@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#281926">
+  <meta name="description" content="Podróż w czasie z profesorem Czasikiem. Gra na pięćdziesięciolecie Przedszkola nr 32 „Cisowiaczki” w Gdyni.">
+  <title>Cisowiaczki · Podróż w czasie</title>
+  <link rel="icon" type="image/webp" href="./assets/symbole/zebatka.webp">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preload" as="image" href="./assets/tla/sala-2026.webp">
+  <script defer src="./ustawienia.js"></script>
+  <script defer src="./opowiesc.js"></script>
+  <script defer src="./gra.js"></script>
+</head>
+<body>
+  <main id="game" class="game" data-year="start" data-screen="start">
+    <header class="topbar">
+      <span class="brand"><img src="./assets/symbole/zebatka.webp" alt="" width="28" height="28"> Cisowiaczki</span>
+      <ol id="timeline" class="timeline" aria-label="Podróż przez trzy lata"></ol>
+    </header>
+    <section id="scene" class="scene" aria-label="Ilustracja sceny"></section>
+    <section id="panel" class="panel" aria-label="Rozgrywka"></section>
+    <div id="time-transition" class="time-transition" aria-hidden="true" hidden></div>
+    <noscript><p class="noscript">Włącz JavaScript w przeglądarce, aby uruchomić grę.</p></noscript>
+    <p id="announcement" class="sr-only" aria-live="polite"></p>
+  </main>
+</body>
+</html>
